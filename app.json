@@ -8,11 +8,11 @@
     "platforms": ["ios", "android"],
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/mealy-icon.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/mealy-splash-3.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#f59a55"
     },
     "updates": {
       "fallbackToCacheTimeout": 0

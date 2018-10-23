@@ -7,12 +7,7 @@ import firebase from 'firebase';
 import { isNumber } from 'util';
 
 var config = {
-  authDomain: "californiafoodapp.firebaseapp.com",
-  databaseURL: "https://californiafoodapp.firebaseio.com",
-  projectId: "californiafoodapp",
-  storageBucket: "californiafoodapp.appspot.com",
-  messagingSenderId: "1034070381072",
-  apiKey: "AIzaSyAXzCBIn6SJFKH_hUSkeswcazZuU62QYTs"
+  
 };
 
 if(!firebase.apps.length) {

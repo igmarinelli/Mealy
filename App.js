@@ -58,9 +58,9 @@ export default class App extends Component {
     signIn = async () => {
       try {
         const result = await Expo.Google.logInAsync({
-          androidClientId: "1034070381072-aossnlr8i96nd41fdq33i1cfjptd72ji.apps.googleusercontent.com",
-          webClientId: "1034070381072-q9vbuq8m9bgom30ctoganjr2d623flt0.apps.googleusercontent.com",
-          iosClientId: "1034070381072-np2qs5hkj9a0nk9l1ghkj96mrmt29qa3.apps.googleusercontent.com",
+          androidClientId: "",
+          webClientId: "",
+          iosClientId: "",
           scopes: ["profile", "email"]
         })
         if(result.type === "success") {
